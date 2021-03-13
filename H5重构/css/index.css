@@ -1,0 +1,461 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.bigBox {
+  width: 100%;
+  background: #cf3d8b;
+}
+.bigBox .bBox {
+  position: absolute;
+  top: 0.69rem;
+  left: 0.32rem;
+}
+.bigBox .bBox .bg {
+  width: 6.86rem;
+  height: 4.08rem;
+}
+.bigBox .header {
+  position: relative;
+  margin-bottom: 0.36rem;
+}
+.bigBox .header .rBox {
+  width: 0.28rem;
+  height: 0.28rem;
+  padding-top: 0.41rem;
+  margin-left: 4.75rem;
+}
+.bigBox .header .rBox .r {
+  width: 0.28rem;
+  height: 0.28rem;
+  opacity: 1;
+}
+.bigBox .header .lBox {
+  margin-left: 2.75rem;
+}
+.bigBox .header .lBox .logo {
+  width: 2.27rem;
+  height: 3.53rem;
+  opacity: 1;
+}
+.bigBox .header .tBox {
+  margin-left: 0.32rem;
+  margin-top: 0.56rem;
+}
+.bigBox .header .tBox .title {
+  width: 6.89rem;
+  height: 1.33rem;
+  opacity: 1;
+}
+.bigBox .header .vBox {
+  text-align: center;
+  margin-top: 0.18rem;
+}
+.bigBox .header .vBox video {
+  width: 6.86rem;
+  height: 3.86rem;
+  opacity: 1;
+  border-radius: 0.16rem;
+}
+.bigBox .a1 {
+  width: 6.86rem;
+  height: 1.11rem;
+  line-height: 1.11rem;
+  opacity: 1;
+  background: #ffffff;
+  border-radius: 0.16rem;
+  text-align: center;
+  margin: 0 auto;
+}
+.bigBox .a1 img {
+  width: 5.39rem;
+  height: 0.56rem;
+  vertical-align: middle;
+}
+.bigBox .content {
+  margin-top: 0.36rem;
+  position: relative;
+}
+.bigBox .content .link1 {
+  z-index: 1;
+  position: absolute;
+  left: 0.86rem;
+  top: -0.58rem;
+}
+.bigBox .content .link2 {
+  z-index: 1;
+  position: absolute;
+  left: 0.86rem;
+  top: 6.2rem;
+}
+.bigBox .content .link3 {
+  z-index: 1;
+  position: absolute;
+  left: 0.86rem;
+  top: 12.85rem;
+}
+.bigBox .content .link4 {
+  z-index: 1;
+  position: absolute;
+  left: 0.86rem;
+  top: 19.6rem;
+}
+.bigBox .content .link1 img,
+.bigBox .content .link2 img,
+.bigBox .content .link3 img,
+.bigBox .content .link4 img {
+  display: inline-block;
+  width: 5.9rem;
+  height: 0.88rem;
+  opacity: 1;
+}
+.bigBox .content .b1 {
+  background-image: url('../images/蒙版组\ 1@2x.png');
+  background-size: 6.86rem 6.41rem;
+}
+.bigBox .content .b2 {
+  margin-top: 0.32rem;
+  overflow: hidden;
+  background-image: url('../images/蒙版组\ 2@2x.png');
+  background-size: 6.86rem 6.41rem;
+}
+.bigBox .content .b3 {
+  background-image: url('../images/蒙版组\ 6@2x.png');
+  background-size: 6.86rem 6.41rem;
+}
+.bigBox .content .b4 {
+  background-image: url('../images/组 7173@2x.png');
+  background-size: 3.87rem;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.bigBox .content .b1,
+.bigBox .content .b2,
+.bigBox .content .b3,
+.bigBox .content .b4 {
+  width: 6.86rem;
+  height: 6.41rem;
+  margin-left: 0.32rem;
+  opacity: 1;
+  border-radius: 0.16rem;
+  background-color: white;
+  position: relative;
+}
+.bigBox .content .b1 .b1a,
+.bigBox .content .b2 .b1a,
+.bigBox .content .b3 .b1a,
+.bigBox .content .b4 .b1a {
+  position: relative;
+  opacity: 1;
+  margin-left: 0.32rem;
+  margin-top: 0.32rem;
+  clear: both;
+}
+.bigBox .content .b1 .b1a .colorBtn,
+.bigBox .content .b2 .b1a .colorBtn,
+.bigBox .content .b3 .b1a .colorBtn,
+.bigBox .content .b4 .b1a .colorBtn {
+  position: absolute;
+  top: 0.8rem;
+  display: inline-block;
+  width: 0.32rem;
+  height: 0.16rem;
+  opacity: 1;
+  background: linear-gradient(270deg, rgba(209, 24, 255, 0), #ff67cb);
+}
+.bigBox .content .b1 .b1a .title,
+.bigBox .content .b2 .b1a .title,
+.bigBox .content .b3 .b1a .title,
+.bigBox .content .b4 .b1a .title {
+  position: absolute;
+  top: 0.6rem;
+  left: 0.4rem;
+  width: 3.24rem;
+  height: 0.37rem;
+  opacity: 1;
+  font-size: 0.36rem;
+  font-family: Source Han Sans CN, Source Han Sans CN-Bold;
+  font-weight: 700;
+  text-align: left;
+  color: #171822;
+  line-height: 0.64rem;
+  margin-left: -0.3rem;
+}
+.bigBox .content .b1 .b1a .b1a_1,
+.bigBox .content .b2 .b1a .b1a_1,
+.bigBox .content .b3 .b1a .b1a_1,
+.bigBox .content .b4 .b1a .b1a_1 {
+  position: relative;
+  top: 1.29rem;
+  width: 4.64rem;
+  height: 2.04rem;
+}
+.bigBox .content .b1 .b1a .b1a_1 .l1,
+.bigBox .content .b2 .b1a .b1a_1 .l1,
+.bigBox .content .b3 .b1a .b1a_1 .l1,
+.bigBox .content .b4 .b1a .b1a_1 .l1 {
+  width: 4.64rem;
+  height: 0.52rem;
+  margin-top: 0.24rem;
+}
+.bigBox .content .b1 .b1a .b1a_1 .l1 .icon,
+.bigBox .content .b2 .b1a .b1a_1 .l1 .icon,
+.bigBox .content .b3 .b1a .b1a_1 .l1 .icon,
+.bigBox .content .b4 .b1a .b1a_1 .l1 .icon {
+  width: 0.52rem;
+  height: 0.52rem;
+}
+.bigBox .content .b1 .b1a .b1a_1 .l1 .text,
+.bigBox .content .b2 .b1a .b1a_1 .l1 .text,
+.bigBox .content .b3 .b1a .b1a_1 .l1 .text,
+.bigBox .content .b4 .b1a .b1a_1 .l1 .text {
+  display: inline-block;
+  width: 4rem;
+  height: 0.52rem;
+  opacity: 1;
+  font-size: 0.24rem;
+  font-family: Source Han Sans CN, Source Han Sans CN-Regular;
+  font-weight: 400;
+  text-align: left;
+  color: #171822;
+  line-height: 0.28rem;
+}
+.bigBox .content .b5 .txt1 {
+  margin-top: 0.6rem;
+  margin-bottom: 0.32rem;
+  text-align: center;
+  height: 0.26rem;
+  opacity: 1;
+  font-size: 0.26rem;
+  font-family: Source Han Sans CN, Source Han Sans CN-Regular;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 0.28rem;
+}
+.bigBox .content .b5 .txt2 {
+  margin: 0 auto;
+  text-align: center;
+  height: 0.3rem;
+  opacity: 1;
+  font-size: 0.22rem;
+  font-family: Source Han Sans CN, Source Han Sans CN-Regular;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.4);
+}
+.bigBox .content .b5 .appstore {
+  height: 4.12rem;
+  opacity: 1;
+  margin-left: 0.93rem;
+  vertical-align: middle;
+}
+.bigBox .content .b5 .appstore ul {
+  margin: 0 auto;
+}
+.bigBox .content .b5 .appstore ul li {
+  float: left;
+  list-style: none;
+}
+.bigBox .content .b5 .appstore ul li div {
+  width: 1.75rem;
+  height: 0.88rem;
+  margin: 0.12rem 0rem 0rem 0.12rem;
+  opacity: 1;
+  border-radius: 0.44rem;
+  font-size: 0.32rem;
+  font-family: Source Han Sans CN, Source Han Sans CN-Regular;
+  font-weight: 400;
+  text-align: left;
+  color: #ffffff;
+}
+.bigBox .content .b5 .appstore ul li div img {
+  vertical-align: middle;
+  width: 0.64rem;
+  height: 0.64rem;
+}
+.bigBox .content .b5 .appstore ul li div span {
+  vertical-align: middle;
+}
+.bigBox .content .b5 .inputArea {
+  width: 3.6rem;
+  height: 0.64rem;
+  opacity: 1;
+  border: 0.02rem solid #ffffff;
+  border-radius: 0.34rem;
+  margin: 0 auto;
+  margin-top: 0.6rem;
+  margin-bottom: 0.24rem;
+  vertical-align: middle;
+}
+.bigBox .content .b5 .inputArea span {
+  width: 0.96rem;
+  height: 0.32rem;
+  opacity: 1;
+  font-size: 0.32rem;
+  font-family: Source Han Sans CN, Source Han Sans CN-Regular;
+  font-weight: 400;
+  text-align: left;
+  color: #ffffff;
+  line-height: 0.32rem;
+  margin-left: 0.28rem;
+  position: relative;
+  top: -0.06rem;
+}
+.bigBox .content .b5 .inputArea img {
+  width: 0.48rem;
+  height: 0.48rem;
+  opacity: 1;
+  position: relative;
+  top: 0.08rem;
+  left: 1.7rem;
+}
+.bigBox .content .b5 .QRcode {
+  width: 3.21rem;
+  height: 3.2rem;
+  opacity: 1;
+  margin: 0 auto;
+  text-align: center;
+  vertical-align: middle;
+}
+.bigBox .content .b5 .QRcode img {
+  width: 3.21rem;
+  height: 3.2rem;
+  opacity: 1;
+  background: #ffffff;
+}
+.bigBox .content .b5 .txt3 {
+  margin: 0 auto;
+  margin-top: 0.2rem;
+  height: 0.64rem;
+  opacity: 1;
+  font-size: 0.24rem;
+  font-family: Source Han Sans CN, Source Han Sans CN-Regular;
+  font-weight: 400;
+  text-align: center;
+  color: #ffffff;
+  line-height: 0.64rem;
+}
+.bigBox .content .b5 .msg1 {
+  width: 6.82rem;
+  height: 2rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 0.16rem;
+  margin: 0 auto;
+}
+.bigBox .content .b5 .msg1 ul {
+  padding-top: 0.1rem;
+  opacity: 1;
+  font-size: 0.2rem;
+  font-family: Source Han Sans CN, Source Han Sans CN-Regular;
+  font-weight: 400;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.6);
+  list-style: none;
+  margin-left: 0.2rem;
+}
+.bigBox .content .b5 .msg1 ul li {
+  height: 0.2rem;
+  margin-top: 0.08rem;
+}
+.bigBox .content .b5 .msg2 {
+  margin: 0 auto;
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+  width: 6.83rem;
+  height: 3.7rem;
+  opacity: 1;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 0.16rem;
+}
+.bigBox .content .b5 .msg2 .contact ul {
+  margin-bottom: 0.25rem;
+}
+.bigBox .content .b5 .msg2 .contact ul li img {
+  vertical-align: middle;
+}
+.bigBox .content .b5 .msg2 .contact ul li span {
+  vertical-align: middle;
+}
+.bigBox .content .b5 .msg2 ul > li {
+  list-style: none;
+  float: left;
+  opacity: 1;
+  font-size: 0.2rem;
+  font-family: Source Han Sans CN, Source Han Sans CN-Regular;
+  font-weight: 400;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.6);
+}
+.bigBox .content .b5 .colorBox {
+  width: 100%;
+  height: 180px;
+  background-color: #cf3d8b;
+}
+.bigBox .content .b5 .btnFather .btn {
+  z-index: 2;
+  font-size: 0.32rem;
+  font-family: Source Han Sans CN, Source Han Sans CN-Bold;
+  color: #ffffff;
+  line-height: 0.64rem;
+  border: 0;
+  width: 6.4rem;
+  height: 1rem;
+  font-weight: 400;
+  opacity: 1;
+  background: linear-gradient(0deg, #f018ff, #ff67cb);
+  border-radius: 0.5rem;
+  box-shadow: 0rem 0.08rem 0.12rem 0rem rgba(209, 24, 255, 0.6);
+  position: fixed;
+  bottom: 0.48rem;
+  left: 0.55rem;
+}
+.contact ul li img {
+  width: 0.32rem;
+  height: 0.32rem;
+  opacity: 1;
+}
+.triangle {
+  position: relative;
+  top: -0.25rem;
+  left: 0.25rem;
+  width: 0;
+  height: 0;
+  border-top: 0.1rem solid rgba(207, 61, 139, 0.64);
+  border-right: 0.1rem solid transparent;
+  border-bottom: 0.1rem solid transparent;
+}
+.triangle2 {
+  position: relative;
+  top: -0.25rem;
+  left: 0.25rem;
+  width: 0;
+  height: 0;
+  border-top: 0.1rem solid rgba(207, 61, 139, 0.64);
+  border-right: 0.1rem solid transparent;
+  border-bottom: 0.1rem solid transparent;
+}
+.printBox {
+  width: 5rem;
+  position: relative;
+  top: 1.62rem;
+  left: 0.11rem;
+}
+.printBox .box1,
+.printBox .box2 {
+  display: inline-block;
+  padding-top: 0.12rem;
+  padding-bottom: 0.12rem;
+  margin-bottom: 0.25rem;
+  background: rgba(207, 61, 139, 0.64);
+  border-radius: 0.08rem;
+  opacity: 1;
+  font-size: 0.22rem;
+  font-family: Source Han Sans CN, Source Han Sans CN-Regular;
+  font-weight: 400;
+  color: #ffffff;
+}
+.printBox .box1 #box1,
+.printBox .box2 #box1,
+.printBox .box1 #box2,
+.printBox .box2 #box2 {
+  padding: 0.12rem 0.32rem 0.12rem 0.32rem;
+}
